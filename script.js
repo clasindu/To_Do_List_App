@@ -75,7 +75,7 @@ function toggleTask(index) {
   saveToLocalStorage();
   displayTasks();
 }
-
+//Delete all tasks function
 function deleteAllTasks() {
   todo = [];
   saveToLocalStorage();
